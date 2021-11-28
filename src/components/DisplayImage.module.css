@@ -1,0 +1,97 @@
+h1{
+    text-align: center;
+    margin: 5px 2px auto;
+}
+h1:hover{
+    color: crimson;
+    cursor: pointer;
+}
+.mainContainer{
+    columns: 3;
+    column-gap: 5px;
+    width: 80%;
+    margin: 2px auto;
+
+}
+.imgDiv{
+    position: relative;
+    overflow: hidden;
+}
+.downloadBtn{
+    display: none;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    position: absolute;
+    font-size: xx-large;
+    top: 10%;
+    left: 75%;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.imgDiv:hover .downloadBtn{
+    display:inline-block;
+}
+.imgDiv:hover{
+    cursor: zoom-in;
+}
+.imgDiv img{
+    width: 100%;
+        transition: 0.5s all ease-in-out;
+}
+.imgDiv img:hover{
+    transform: scale(1.1);
+
+}
+.downloadBtn:hover{
+    background-color: goldenrod;
+    border: 1px solid goldenrod;
+
+}
+.imgDiv:hover .likeBtn{
+    display:inline-block;
+}
+.likeBtn{
+    display: none;
+    position: absolute;
+    font-size: x-large;
+    top: 10%;
+    left: 15%;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    cursor: pointer; 
+}
+
+.mainContainer img{
+    width: 100%;
+    padding: 5px;
+    border-radius: 50px;
+    z-index: 1;
+}
+button {
+    height: 3.5rem;
+    border-radius: 8px;
+    background-color: cadetblue;
+    /* margin-bottom: 5px; */
+    border: none;
+    font-size: larger;
+    padding: 0px;
+    width: 7rem;
+    font-family: 'Chakra Petch', sans-serif;
+    text-align: center;
+    cursor: pointer;
+}
+button:hover{
+    background-color: aquamarine;
+}
+input{
+    height: 2.93rem;
+    width: 15rem;
+    font-size: larger;
+    padding-left: 12px;
+}
+.topBox{
+    margin: 25px auto;
+text-align: center;
+}
