@@ -13,3 +13,17 @@
   top: 170px;
   right: -180px;
 }
+
+@media screen and (max-width: 930px) {
+  .toggleBtn {
+    display: inline-block;
+    top: 56px;
+    left: 40%;
+  }
+}
+
+/* @media screen and (max-width: 500px) {
+  body {
+    background-color: lightgreen;
+  }
+} */

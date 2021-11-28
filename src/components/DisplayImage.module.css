@@ -13,6 +13,17 @@ h1:hover{
     margin: 2px auto;
 
 }
+@media screen and (max-width: 930px) {
+    .mainContainer {
+      columns: 2;
+    }
+  }
+  
+  @media screen and (max-width: 500px) {
+    .mainContainer {
+        columns: 1;
+    }
+  }
 .imgDiv{
     position: relative;
     overflow: hidden;
